@@ -9,8 +9,6 @@ jobs:
     steps:
     - checkout
 
-    - run: env
-
     - run:
         name: Setup ginkgo
         command: go get -u github.com/onsi/ginkgo/ginkgo
