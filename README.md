@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/lab259/go-tsrsmgo.svg?style=shield)](https://circleci.com/gh/lab259/go-tsrsmgo)
+[![codecov](https://codecov.io/gh/lab259/go-tsrsmgo/branch/master/graph/badge.svg)](https://codecov.io/gh/lab259/go-tsrsmgo)
+
 # tsrsmgo
 
 ## Getting started
