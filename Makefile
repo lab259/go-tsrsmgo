@@ -20,6 +20,7 @@ coverage-ci:
 
 coverage: coverage-ci
 	@sed -i -e "s|_$(CURDIR)/|./|g" "${COVERAGEFILE}"
+	@cp "${COVERAGEFILE}" coverage.txt
 
 coverage-html:
 	@$(GOPATHCMD) go tool cover -html="${COVERAGEFILE}" -o .cover/report.html
